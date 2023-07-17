@@ -44,6 +44,22 @@ function replay1()
     audio1.currentTime=0;
     audio1.play();
     count1=1;
+    if(count1==1)
+    {
+        audio2.pause();
+        count2=0;
+        audio3.pause();
+        count3=0;
+        audio5.pause();
+        count5=0;
+        audio6.pause();
+        count6=0;
+        audio4.pause();
+        count4=0;
+        audio7.pause();
+        count7=0;
+    
+    }
 }
 function click2()
 {
@@ -77,6 +93,22 @@ function replay2()
     audio2.currentTime=0;
     audio2.play();
     count2=1;
+    if(count2==1)
+    {
+        audio1.pause();
+    count1=0;
+    audio3.pause();
+    count3=0;
+    audio5.pause();
+    count5=0;
+    audio6.pause();
+    count6=0;
+    audio4.pause();
+    count4=0;
+    audio7.pause();
+    count7=0;
+    
+    }
 }
 function click3()
 {
@@ -110,6 +142,22 @@ function replay3()
     audio3.currentTime=0;
     audio3.play();
     count3=1;
+    if(count3===1)
+    {
+        audio2.pause();
+    count2=0;
+    audio1.pause();
+    count1=0;
+    audio5.pause();
+    count5=0;
+    audio6.pause();
+    count6=0;
+    audio4.pause();
+    count4=0;
+    audio7.pause();
+    count7=0;
+    
+    }
 }
 function click4()
 {
@@ -142,6 +190,21 @@ function replay4()
     audio4.currentTime=0;
     audio4.play();
     count4=1;
+    if(count4==1)
+    {
+        audio2.pause();
+        count2=0;
+        audio3.pause();
+        count3=0;
+        audio5.pause();
+        count5=0;
+        audio6.pause();
+        count6=0;
+        audio1.pause();
+        count1=0;
+        audio7.pause();
+        count7=0;
+    }
 }
 function click5()
 {
@@ -176,6 +239,23 @@ function replay5()
     audio5.currentTime=0;
     audio5.play();
     count5=1;
+    if(count5==1)
+    {
+        audio2.pause();
+        count2=0;
+        audio3.pause();
+        count3=0;
+        audio1.pause();
+        count1=0;
+        audio6.pause();
+        count6=0;
+        audio4.pause();
+        count4=0;
+        audio7.pause();
+        count7=0;
+    
+       
+    }
 }
 function click6()
 {
@@ -210,6 +290,23 @@ function replay6()
     audio6.currentTime=0;
     audio6.play();
     count6=1;
+    if(count6==1)
+    {
+        audio2.pause();
+        count2=0;
+        audio3.pause();
+        count3=0;
+        audio5.pause();
+        count5=0;
+        audio1.pause();
+        count1=0;
+        audio4.pause();
+        count4=0;
+        audio7.pause();
+        count7=0;
+    
+    
+    }
 }
 function click7()
 {
@@ -244,6 +341,23 @@ function replay7()
     audio7.currentTime=0;
     audio7.play();
     count7=1;
+    if(count7==1)
+    {
+        audio2.pause();
+        count2=0;
+        audio3.pause();
+        count3=0;
+        audio5.pause();
+        count5=0;
+        audio6.pause();
+        count6=0;
+        audio4.pause();
+        count4=0;
+        audio1.pause();
+        count1=0;
+    
+    
+    }
 }
 document.querySelector("#W").addEventListener("click",click1);
 document.querySelector("#first").addEventListener("click",replay1);
