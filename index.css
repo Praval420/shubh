@@ -1,0 +1,182 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: grey;
+    
+
+}
+.buttons{
+    margin-top: 150px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;  
+
+}
+.hell{
+    height: 150px;
+    width: 150px;
+    margin: 14px;
+    background-image:url("cheq.jpeg");
+    background-size: 110%;
+    padding: 4px;
+    border-radius: 10%;
+    border: 3.5px solid rgb(80, 187, 199);
+    font-family: sans-serif;
+}
+h1{
+    color:purple;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 3px 9px 9px black;
+}
+
+footer{
+    margin: 90px auto 0 auto;
+text-align: center;}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+
+
+}
+.well{
+    height:39px;
+    width: 151px;
+    background-image: linear-gradient(43deg, #4158D0 , #C850C0 , #FFCC70,pink,rgb(201, 68, 201),rgb(91, 177, 91),rgb(68, 90, 68),rgb(144, 235, 144),rgb(230, 93, 93)
+    ,rgb(113, 70, 70),rgb(56, 55, 55));
+    text-align: center;
+    margin-left: 13px;
+    border-radius: 50%;
+    text-decoration: underline;
+    animation-name: praval;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    background-size: 400%;
+    margin-top: 35px;
+
+}
+@keyframes praval{
+    0% {background-position: left}
+  100% {background-position: right}  
+}
+.well:hover{
+    color:white;
+}
+span{
+    margin-top: 2px;
+    padding-top: 100px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.song{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: oblique;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-shadow: 4px 4px 3px rgb(101, 91, 91);
+    font-weight: bold;
+
+}
+#A{
+    background-image: url("her.jpeg");
+    background-size: 143px 156px;
+    background-repeat: no-repeat;
+}
+#S{
+    background-image: url("baller.jpeg");
+    background-size: 144px 144px;
+    background-repeat: no-repeat;
+}
+#D{
+    background-image:url("love.jpeg");
+    background-size: 143px 144px;
+    background-repeat: no-repeat;
+}
+#J{
+    background-image: url("We.jpeg");
+}
+#K{
+    background-image: url("elevated.jpeg");
+    background-size: 143px 167px;
+}
+#L{
+    background-image: url("still.jpeg");
+    background-size: 99%;
+}
+#W{
+    background-size: 146px 160px;
+    background-repeat: no-repeat;
+}
+.hell{
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:36px;
+    text-align: center;
+    text-decoration:none;
+    background-color:#FFA12B;
+    display:block;
+    position:relative;
+    padding:20px 40px;
+    
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #6f3535;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+.hell:active{
+    top:10px;
+    background-color:#F78900;
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+    box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  }
+  
+.hell:after{
+    content:"";
+    height:100%;
+    width:100%;
+    padding:4px;
+    position: absolute;
+    bottom:-15px;
+    left:-4px;
+    z-index:-1;
+    background-color:#2B1800;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+@media only screen and (max-width:768px){
+    h1{
+        padding-left: 2px;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .well{
+        margin-top:14px ;
+        margin-bottom: 43px;
+        margin-left: 83px;
+    }
+    .hell{
+        margin-left: 83px;
+    }
+}
